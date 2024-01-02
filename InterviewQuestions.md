@@ -19,8 +19,22 @@
   It represents the instance of the object itself. When you define a method within a class, the method should take self as its first parameter,
   and this parameter refers to the instance of the class.
 
-### 4. where should we use Lambda function keyword in python ?
+### 5. where should we use Lambda function keyword in python ?
 - They are usually used when we want a single result and not a resuable function.
 - When a small function is needed for a short duration and defining a full function using def seems unnecessary, lambda functions provide a concise alternative.
 - In Python, the lambda keyword is used to create anonymous functions, also known as lambda functions.
   Lambda functions are a concise way to create small, one-time-use functions without formally defining them using the def keyword.
+
+### 6. try, else, except, finally
+- a =5, b=0
+- try:
+  - q = a/b
+  - print(q)
+- except ZeroDivisionError:
+  - print("Can't divide by error")
+- else:
+  - print("Else runs only if try block executes")
+- finally:
+  - print("Finally block always runs")
+
+
