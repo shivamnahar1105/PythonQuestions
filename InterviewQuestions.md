@@ -1,5 +1,5 @@
 # Python Basic Questions
 
---> Value of True = 1 | 
--- Value of False = 0 | 
--- Value of None is Empty (not even Zero)
+> Value of True = 1 |
+> Value of False = 0 |
+>  Value of None is Empty (not even Zero)
