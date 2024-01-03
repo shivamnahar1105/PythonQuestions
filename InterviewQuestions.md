@@ -1,5 +1,7 @@
 # Python Basic Questions
 
+[Python_Interview_Questions](https://colab.research.google.com/drive/18crmbaBn4AFYd8RUefb-LynmbU69uqlX)
+
 ### 1. 
 - Value of True = 1 
 - Value of False = 0 
