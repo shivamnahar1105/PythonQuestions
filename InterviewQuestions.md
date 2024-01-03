@@ -39,4 +39,37 @@
 - finally:
   - print("Finally block always runs")
 
+### 7. map function & sep function of print.
+
+#### - Seprator in python
+- The sep parameter in the print function is used to specify the separator between multiple arguments provided to the print function.
+   When you print multiple values using print, they are separated by a space by default. However, you can use the sep parameter to change the separator.
+   
+  - a = 1
+  - b = 2
+  - c = 3
+  - print(a, b, c, sep=", ")
+ 
+#### - Map function 
+- The map function in Python is used to apply a specified function to each item in an iterable (like a list) and returns a new iterable with the results.
+- Example:
+ ###### Define a function to square a number
+def square(x):
+    return x ** 2
+
+###### Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+###### Use map to square each number in the list
+squared_numbers = map(square, numbers)
+
+###### Convert the result to a list (as map returns an iterable)
+result_list = list(squared_numbers)
+
+##### Print the squared numbers
+print(result_list)
+
+
+ 
+
 
