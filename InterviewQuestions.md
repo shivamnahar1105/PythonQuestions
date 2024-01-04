@@ -70,6 +70,7 @@ result_list = list(squared_numbers)
 print(result_list)
 
 
+ ### 8. - Strings in python are immutable. So if we do slicing of a string new variable will be created for the same.
  
 
 
