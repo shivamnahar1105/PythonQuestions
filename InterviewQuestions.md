@@ -81,4 +81,26 @@ print(result_list)
 
  List Comprehension: We cannot use continue in list comprehension.
 
+### 10. 
+#### Sort vs Sorting 
+- **Sort** is a method applied directly to a list, sorting it in place,
+  while **Sorted** is a built-in function that creates a new sorted list from any iterable.
+  Use sort if you want to modify the original list, and use sorted if you want to keep the original list unchanged and create a new sorted list.
+ - Sort
+    numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+    numbers.sort()  # This sorts the list in-place
+    print(numbers)  # [1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]
+
+- Sorting
+    numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+    sorted_numbers = sorted(numbers)  # This creates a new sorted list
+    print(sorted_numbers)  # [1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]
+  
+
+#### Remove vs Pop  
+
+- Both modifies the list in place.
+- Use **Remove** if you want to remove a specific value from the list. It removes the first iterable.
+- Use **pop** if you want to remove and optionally retrieve an element based on its index.
+
 
