@@ -109,3 +109,24 @@ print(result_list)
 - The defaultdict tool is a container in the collections class of Python.
   It's similar to the usual dictionary (dict) container, but the only difference is that a defaultdict will have a default value
   if that key has not been set yet. If you didn't use a defaultdict you'd have to check to see if that key exists, and if it doesn't, set it to what you want.
+
+#### Enumerate
+
+- enumerate is a built-in function in Python that allows you to iterate over a sequence (such as a list, tuple, or string) along with its index.
+It returns tuples containing the index and the corresponding item.
+
+```
+fruits = ['apple', 'banana', 'cherry']
+
+for index, fruit in enumerate(fruits):
+    print(f"Index {index}: {fruit}")
+```
+
+---- Output:
+```
+Index 0: apple
+Index 1: banana
+Index 2: cherry
+```
+
+  
