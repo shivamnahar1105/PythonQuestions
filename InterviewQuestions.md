@@ -129,4 +129,43 @@ Index 1: banana
 Index 2: cherry
 ```
 
+### Namedtuple
+- A named tuple is a subclass of a tuple in Python. It is similar to a regular tuple, but it has named fields accessible using dot notation in addition to the usual indexing.    Named tuples provide a way to define simple classes for storing data in a more readable and self-documenting way than traditional tuples or lists.
+
+```
+from collections import namedtuple
+
+# Define a named tuple 'Point' with fields 'x' and 'y'
+Point = namedtuple('Point', ['x', 'y'])
+
+# Create an instance of the named tuple
+p = Point(x=1, y=2)
+
+# Access fields using dot notation
+print(p.x)  # Output: 1
+print(p.y)  # Output: 2
+
+# Access fields using indexing
+print(p[0])  # Output: 1
+print(p[1])  # Output: 2
+
+```
+
+```
+from collections import namedtuple
+
+# Define a named tuple 'Color' with fields 'red', 'green', and 'blue'
+Color = namedtuple('Color', ['red', 'green', 'blue'])
+
+# Create an instance of the named tuple
+color = Color(red=255, green=0, blue=127)
+
+# Access fields using dot notation
+print(color.red)    # Output: 255
+print(color.green)  # Output: 0
+print(color.blue)   # Output: 127
+```
+
+
+
   
