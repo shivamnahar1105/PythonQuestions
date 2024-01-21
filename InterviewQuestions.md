@@ -97,12 +97,31 @@ print(result_list)
     print(sorted_numbers)  # [1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]
   
 
-#### Remove vs Pop  
+#### Remove vs Pop vs Discard  
 
 - Both modifies the list in place.
 - Use **Remove** if you want to remove a specific value from the list. It removes the first iterable.
 - Use **pop** if you want to remove and optionally retrieve an element based on its index.
 
+-- **Remove**
+  .remove(x)
+  This operation removes element x from the set.
+  If element  does not exist, it raises a KeyError.
+  The .remove(x) operation returns None.
+
+-- **discard**
+  This operation also removes element x from the set.
+  If element  does not exist, it does not raise a KeyError.
+  The .discard(x) operation returns None.
+
+-- **pop**
+  The .pop() method works differently for sets and lists.
+  
+  - **For sets:**
+    The .pop() method removes and returns an arbitrary element from the set.
+  - **For lists:**
+    The .pop() method by default removes and returns the last element from the list if an index is not specified.
+    If you provide an index as an argument (e.g., .pop(index)), it removes and returns the element at that specific index.
 
 #### defaultdict
 
