@@ -204,5 +204,18 @@ print(color.blue)   # Output: 127
   [(1, 6, 7), (2, 5, 8), (3, 4, 9)]
   ```
 
+  ### 11. Strings and dictionary
+```
+print(' ' is ' ')
+print({} is {})
+```
+- #### String Interning:
+
+Python interns certain strings, meaning it stores only one copy of each distinct string value in memory and reuses it whenever possible. This optimization is performed for strings that are small and frequently used.
+In the case of empty strings '', Python interns them by default, so every occurrence of '' in your code refers to the same string object in memory.
+
+- #### Dictionary Creation:
+Unlike strings, dictionaries in Python are mutable objects. Each time you create an empty dictionary using {}, Python creates a new dictionary object in memory. This is because dictionaries can be modified, and Python doesn't optimize them in the same way as immutable objects like strings.
+
 
   
