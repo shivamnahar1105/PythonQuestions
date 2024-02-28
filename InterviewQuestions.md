@@ -218,4 +218,38 @@ In the case of empty strings '', Python interns them by default, so every occurr
 Unlike strings, dictionaries in Python are mutable objects. Each time you create an empty dictionary using {}, Python creates a new dictionary object in memory. This is because dictionaries can be modified, and Python doesn't optimize them in the same way as immutable objects like strings.
 
 
+### 12. Join function
+- The .join() method in Python is used to concatenate elements of an iterable (such as a list, tuple, or string) into a single string. It takes the iterable as its argument and returns a string where each element of the iterable is joined together with the string on which the method is called.
+```
+string = separator.join(iterable)
+```
+
+- Joining elements of a list into a single string:
+```
+my_list = ['apple', 'banana', 'cherry']
+result = ', '.join(my_list)
+print(result)  # Output: "apple, banana, cherry"
+```
+
+- Joining characters of a string:
+```
+my_string = "hello"
+result = '-'.join(my_string)
+print(result)  # Output: "h-e-l-l-o"
+```
+
+- Joining elements of a tuple:
+```
+my_tuple = ('a', 'b', 'c', 'd')
+result = ''.join(my_tuple)
+print(result)  # Output: "abcd"
+```
+
+- Joining elements of a generator expression:
+```
+result = ''.join(str(num) for num in range(1, 6))
+print(result)  # Output: "12345"
+```
+
+
   
