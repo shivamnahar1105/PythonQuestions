@@ -2,6 +2,8 @@
 
 [Python_Interview_Questions](https://colab.research.google.com/drive/18crmbaBn4AFYd8RUefb-LynmbU69uqlX)
 
+[Python_Revision_and Interview Questions](https://colab.research.google.com/drive/1sQXViHsU35aREgRTGi5gfPG94I6XDDrG#scrollTo=xzP1bIoQ3967)
+
 ### 1. 
 - Value of True = 1 
 - Value of False = 0 
